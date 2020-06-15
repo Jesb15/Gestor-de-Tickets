@@ -14,9 +14,10 @@
  
     <div class="container">
         <form>
-            <div class="form-group">
+        <div class="form-group">
                 <label for="exampleInputEmail1">Correo Electronico</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">Puto el que lo lea</small>
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
