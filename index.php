@@ -17,7 +17,7 @@
             <div class="form-group">
                 <label for="exampleInputEmail1">Correo Electronico</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                <small id="emailHelp" class="form-text text-muted">Puto el que lo lea</small>
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Contraseña</label>
