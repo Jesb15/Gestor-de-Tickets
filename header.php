@@ -1,4 +1,4 @@
 
   <header>
-    <a href="/GESTOR-DE-TICKETS">PopolaLoca27</a>
+    <a href="/GESTOR-DE-TICKETS">Inicio</a>
   </header>
