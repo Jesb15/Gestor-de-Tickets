@@ -18,7 +18,7 @@
 
 </div>
   <a class="btn" href="signup.php" role="button">Registrarse</a>
-  <a class="btn" href="login.php" role="button">Iniciar Sesion</a>
+  <a class="btn" href="login.php" role="button">Iniciar sesion</a>
 </div>
 </body>
  
