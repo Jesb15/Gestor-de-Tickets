@@ -15,8 +15,11 @@
 <?php require "./header.php"?>
   <h1>Iniciar sesion o Registrarse</h1>
 
-  <a href="login.php">Iniciar sesion </a>o
-  <a href="signup.php">Registrarse</a>
+
+</div>
+  <a class="btn" href="signup.php" role="button">Registrarse</a>
+  <a class="btn" href="login.php" role="button">Iniciar Sesion</a>
+</div>
 </body>
  
 </html>
