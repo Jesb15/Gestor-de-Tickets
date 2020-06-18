@@ -39,7 +39,8 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
     <span>o <a href="login.php">Inicie Sesion</a> </span>
     
     <form action="signup.php" method="post">
-        
+        <input type="text" name="nombre" placeholder="Nombre"> 
+        <input type="text" name="nombre" placeholder="Apellido">
         <input type="text" name="email" placeholder="Ingrese su email">
         <input type="password" name="password" placeholder="Ingrese la contraseña">
         <input type="password" name="confirmpassword" placeholder="Confirme la contraseña">
