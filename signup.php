@@ -40,7 +40,7 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
     
     <form action="signup.php" method="post">
         
-        <input type="text" name="email" placeholder="Ingrese su correo electronico">
+        <input type="text" name="email" placeholder="Ingrese su email">
         <input type="password" name="password" placeholder="Ingrese la contraseña">
         <input type="password" name="confirmpassword" placeholder="Confirme la contraseña">
         <input type="submit" value="Registrarse">

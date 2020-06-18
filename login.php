@@ -45,13 +45,13 @@ try{
       <p> <?= $message ?></p>
     <?php endif; ?>
 
-    <h1>Login</h1>
+    <h1>Iniciar sesion</h1>
     <span>or <a href="signup.php">SignUp</a></span>
 
     <form action="login.php" method="POST">
-      <input name="email" type="text" placeholder="Enter your email">
-      <input name="password" type="password" placeholder="Enter your Password">
-      <input type="submit" value="Submit">
+      <input name="email" type="text" placeholder="Ingrese su email">
+      <input name="password" type="password" placeholder="Ingrese su contraseña">
+      <input type="submit" value="Ingresar">
     </form>
   </body>
 </html>
