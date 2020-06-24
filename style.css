@@ -31,6 +31,8 @@ body:after{
     transform: translate(-50%, -50%);
     padding-bottom: 50px;
     overflow: hidden;
+    opacity: 0.80;
+
 }
 
 input[type="text"], input[type="password"]{
@@ -76,10 +78,11 @@ header{
     margin-bottom: 10px;
     width: 100%;
     text-align: center;
+    color: rgb(0, 0, 0);
 }
 
 header a{
-    text-decoration: none;
+    text-decoration: rgb(0, 0, 0);
     color: #22252532;
 }
 .btn:hover{

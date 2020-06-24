@@ -47,11 +47,12 @@ try{
 
     <h1>Iniciar sesion</h1>
     <span>or <a href="signup.php">SignUp</a></span>
-
+      <div class= "container">
     <form action="login.php" method="POST">
       <input name="email" type="text" placeholder="Ingrese su email">
       <input name="password" type="password" placeholder="Ingrese su contraseña">
       <input type="submit" value="Ingresar">
+      </div>
     </form>
   </body>
 </html>
