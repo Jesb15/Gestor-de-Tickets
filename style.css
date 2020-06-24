@@ -21,7 +21,17 @@ body:after{
     opacity: 0.25;
     z-index: -1;
 }
-
+.container{
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 50px;
+    overflow: hidden;
+}
 
 input[type="text"], input[type="password"]{
     outline: none;

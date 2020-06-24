@@ -37,7 +37,7 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
         <?php endif; ?>
     <h1>Registro</h1>
     <span>o <a href="login.php">Inicie Sesion</a> </span>
-    
+    <div class = "container">
     <form action="signup.php" method="post">
         <input type="text" name="nombre" placeholder="Nombre"> 
         <input type="text" name="nombre" placeholder="Apellido">
@@ -46,6 +46,6 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
         <input type="password" name="confirmpassword" placeholder="Confirme la contraseña">
         <input type="submit" value="Registrarse">
     </form>
-
+    </div>
 </body>
 </html>
