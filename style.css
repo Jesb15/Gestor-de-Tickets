@@ -5,8 +5,9 @@ body{
     background-size: cover;
     background-attachment: fixed;
 
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center ;
+    font-weight: bold;
 }
 
 body:after{
@@ -17,11 +18,11 @@ body:after{
     top: 0;
     left: 0;
 
-    background: linear-gradient(90deg,#14c414,#09bdf3);
+    background: linear-gradient(90deg,#14c414b6,#09bcf39d);
     opacity: 0.25;
     z-index: -1;
 }
-.container{
+.containerreg{
     width: 100%;
     max-width: 400px;
     background: #fff;
@@ -31,7 +32,20 @@ body:after{
     transform: translate(-50%, -50%);
     padding-bottom: 50px;
     overflow: hidden;
-    opacity: 0.80;
+    opacity: 1;
+
+}
+.containerlog{
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 50px;
+    overflow: hidden;
+    opacity: 1;
 
 }
 
@@ -73,18 +87,14 @@ input[type="submit"]:hover{
 }
 
 header{
-    border-bottom: 5px solid #2fcf35;
-    padding: 20px 0;
+    border-bottom: 5px solid #2fcf34;
+    padding: 35px 0;
     margin-bottom: 10px;
     width: 100%;
     text-align: center;
     color: rgb(0, 0, 0);
 }
 
-header a{
-    text-decoration: rgb(0, 0, 0);
-    color: #22252532;
-}
 .btn:hover{
     outline-color: rgba(187, 224, 24, 0);
     padding: 20px;
@@ -125,3 +135,12 @@ header a{
   ::-ms-input-placeholder { /* Microsoft Edge */
     color: rgb(0, 0, 0);
   }
+
+footer{
+    border-top: 5px solid #2fcf34;
+    padding: 10px 0;
+    margin-top: 730px;
+    width: 100%;
+    text-align: right;
+    color: rgb(0, 0, 0);
+}

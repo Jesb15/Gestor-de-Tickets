@@ -12,14 +12,27 @@
 </head>
  
 <body>
-<?php require "./header.php"?>
-  <h1>Iniciar sesion o Registrarse</h1>
+  <?php require "./header.php"?>
+    <h1>Iniciar sesion o Registrarse</h1>
 
 
-</div>
-  <a class="btn" href="signup.php" role="button">Registrarse</a>
-  <a class="btn" href="login.php" role="button">Iniciar sesion</a>
-</div>
+  </div>
+    <a class="btn" href="signup.php" role="button">Registrarse</a>
+    <a class="btn" href="login.php" role="button">Iniciar sesion</a>
+  </div>
+
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal("containerreg", {
+    duration: 2000,
+    origin: "bottom"
+    });
+    window.sr = ScrollReveal();
+    sr.reveal("containerlog", {
+    duration: 2000,
+    origin: "bottom"
+    });
+  </script>
 </body>
  
 </html>

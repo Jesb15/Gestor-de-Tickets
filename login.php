@@ -40,19 +40,20 @@ try{
   </head>
   <body>
     <?php require './header.php' ?>
-
     <?php if(!empty($message)): ?>
       <p> <?= $message ?></p>
     <?php endif; ?>
 
     <h1>Iniciar sesion</h1>
-    <span>or <a href="signup.php">SignUp</a></span>
-      <div class= "container">
-    <form action="login.php" method="POST">
-      <input name="email" type="text" placeholder="Ingrese su email">
-      <input name="password" type="password" placeholder="Ingrese su contraseña">
-      <input type="submit" value="Ingresar">
-      </div>
-    </form>
+    <span>or <a style="color: red;" href="signup.php">Registrarte</a></span>
+    <div class= "containerlog">
+      <form action="login.php" method="POST">
+        <input name="email" type="text" placeholder="Ingrese su email">
+        <input name="password" type="password" placeholder="Ingrese su contraseña">
+        <input type="submit" value="Ingresar">
+      </form>
+    </div>
+  
+    <?php require "./footer.php" ?>
   </body>
 </html>
