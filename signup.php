@@ -7,11 +7,13 @@ try{
 $message = '';
 
 if (!empty($_POST['email']) && !empty($_POST['password'])) {
-    $sql = "INSERT INTO users (email, password) VALUES (:email, :password)";
+    $sql = "INSERT INTO users (email, password, name, lastname) VALUES (:email, :password, :name, :lastname)";
     $stmt = $conn->prepare($sql);
     $stmt->bindParam(':email', $_POST['email']);
     $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
     $stmt->bindParam(':password', $password);
+    $stmt->bindParam(':name', $_POST['name']);
+    $stmt->bindParam(':lastname', $_POST['lastname']);
 
         if ($stmt->execute()) {
             $message = 'Usuario creado correctamente';
@@ -40,7 +42,7 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
     <div class = "containerreg">
     <form action="signup.php" method="post">
         <input type="text" name="nombre" placeholder="Nombre"> 
-        <input type="text" name="nombre" placeholder="Apellido">
+        <input type="text" name="lastname" placeholder="Apellido">
         <input type="text" name="email" placeholder="Ingrese su email">
         <input type="password" name="password" placeholder="Ingrese la contraseña">
         <input type="password" name="confirmpassword" placeholder="Confirme la contraseña">
